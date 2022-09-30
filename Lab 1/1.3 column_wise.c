@@ -20,7 +20,7 @@ printf(" Array elements in column order :- \n");
   printf("Enter index of Number to find it's address :-");
   scanf("%d%d",&I,&J);
 int add,b=0,lr=0,lc=0;
-add=b+sizeof(arr[0][0])*((I-lr) + (J-lc)*n);
+add=b+sizeof(arr[0][0])*((I-lr) + (J-lc)*m);
   printf("Address of array :- %d \n",add);
   return 0;
 }
