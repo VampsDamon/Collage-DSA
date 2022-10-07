@@ -38,7 +38,7 @@ int pop()
     int ele;
     if(isEmpty())
     {
-        printf("Stack is Overflow\n");
+        printf("Stack is Underflow\n");
         exit(1);
     }
     ele=stack[top];
