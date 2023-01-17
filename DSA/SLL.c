@@ -114,7 +114,5 @@ int main()
   printf("Deleted element :- %d\n",dltFront());
   printf("Deleted element :- %d\n",dltFront());
 display();
-
-
 return 0;
 }
